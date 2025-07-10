@@ -566,6 +566,77 @@ The component includes a Leva control panel with these settings:
 - ✅ **Customizable styling**
 - ✅ **Proper cleanup**
 
+## 🤝 Contributing
+
+**🌟 Want to make it even better? We welcome your contributions!**
+
+We welcome contributions to make this water ripple effect even better! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
+
+### 🚀 How to Contribute
+
+#### 1. Fork the Repository
+
+- Click the "Fork" button at the top right of this repository
+- This creates your own copy of the project
+
+#### 2. Clone Your Fork
+
+```bash
+git clone https://github.com/YOUR_USERNAME/waterRippleWebGL.git
+cd waterRippleWebGL
+```
+
+#### 3. Create a New Branch
+
+```bash
+git checkout -b feature/your-feature-name
+# or
+git checkout -b fix/your-bug-fix
+```
+
+#### 4. Make Your Changes
+
+- Edit the code, add features, or fix bugs
+- Test your changes thoroughly
+- Update documentation if needed
+
+#### 5. Commit and Push
+
+```bash
+git add .
+git commit -m "feat: add new water ripple effect feature"
+git push origin feature/your-feature-name
+```
+
+#### 6. Create a Pull Request
+
+- Go to your fork on GitHub
+- Click "Compare & pull request"
+- Write a clear description of your changes
+- Submit the PR
+
+### 📋 Pull Request Guidelines
+
+- **Clear Description**: Explain what your changes do and why
+
+### 🔍 Review Process
+
+1. **Submit PR**: Create your pull request with clear description
+2. **Code Review**: We'll review your changes and provide feedback
+3. **Approval**: Once approved, your changes will be merged
+4. **Credit**: Contributors will be credited in the project
+
+### 🐛 Reporting Issues
+
+Found a bug or have a feature request?
+
+1. **Check Existing Issues**: Search for similar issues first
+2. **Create New Issue**: Use the "Issues" tab to report problems
+3. **Provide Details**: Include steps to reproduce and expected behavior
+4. **Screenshots**: Add screenshots or GIFs if relevant
+
+---
+
 ## 📄 License
 
 MIT License - Feel free to use in your projects!
