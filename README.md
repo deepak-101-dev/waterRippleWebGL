@@ -24,6 +24,9 @@ npm install three leva
 
 #### WaterRipple Component
 
+<details>
+  <summary>📄 Show Full WaterRipple Component Code</summary>
+
 ```jsx
 // src/components/WaterRipple.jsx
 import { useEffect, useRef } from "react";
@@ -358,7 +361,12 @@ const WaterRipple = ({ width = "100%", height = "100%", style = {} }) => {
 export default WaterRipple;
 ```
 
+</details>
+
 #### Shader Files
+
+<details>
+  <summary>📄 Show Full Shader file</summary>
 
 ```javascript
 // src/utils/shaders.js
@@ -460,6 +468,8 @@ export const renderFragmentShader = `
     }
 `;
 ```
+
+</details>
 
 ### 3. Use the Component
 
