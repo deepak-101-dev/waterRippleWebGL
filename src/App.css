@@ -4,3 +4,39 @@
   box-sizing: border-box;
 
 }
+
+.github-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #24292f;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.github-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.github-icon {
+  transition: filter 0.3s ease;
+  color: black;
+}
+
+.github-button:hover .github-icon {
+  filter: invert(1);
+}
